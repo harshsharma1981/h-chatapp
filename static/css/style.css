@@ -47,8 +47,6 @@ body{
  
 }
 .message{
-    overflow-y: hidden;
-    overflow-x: hidden;
     background-color: burlywood;
     width: 35%;
     border: 2px solid black;
