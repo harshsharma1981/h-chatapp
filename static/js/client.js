@@ -89,7 +89,7 @@ socket.on('receive', data =>{
         setTimeout(function(){
         typii.style.display = 'none'
         typii.innerHTML = "";
-       }, 2000);
+       }, 1500);
  }
 
     typ.append(`${inp.typingg}`)
