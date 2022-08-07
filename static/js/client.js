@@ -88,8 +88,7 @@ socket.on('receive', data =>{
     if (typii.style.display = 'block') {
         setTimeout(function(){
         typii.style.display = 'none'
-        typii.detach();
-        
+        typii.innerHTML = "";
        }, 2000);
  }
 
