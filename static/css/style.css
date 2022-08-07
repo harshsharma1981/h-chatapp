@@ -1,0 +1,221 @@
+*{
+    margin: 0px 0px;
+}
+
+.logo{
+    height: 51px;
+    width: 51px;
+    display: inline;
+    margin-left: 32px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-top: 13px;
+}
+h1{
+    display: inline;
+    font-size: 1.5em;
+    position: absolute;
+    top: 26px;
+    left: 104px;
+    color: white;
+}
+body{
+   
+    background:url('../without-background-3017971.png');
+    background-size: 60vw 47vw;
+    background-position-y: -10vh;
+    background-position-x: 57vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    
+}
+
+.container{
+    max-width:75vw ;
+    border: 2px solid rgb(255, 253, 253);
+    border-radius: 12px;
+    margin: auto;
+    height: 50vh;
+    overflow-y:scroll;
+    padding-top: 23px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 55px;
+    bottom: 23px;
+     background-color: rgb(0, 0, 0, .45);
+  
+ 
+}
+.message{
+    overflow-y: hidden;
+    background-color: burlywood;
+    width: 35%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 6px;
+    padding: 12px;
+    /* font-size: 1.5em; */
+}
+#typing{
+    /* background-color: aqua; */
+   font-size: 1.2em;
+    display: none;
+    width: 152px;
+    height: 1px;
+   color: rgb(230, 226, 226);
+    padding-bottom: 25px;
+    overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: initial;
+    clear: both;
+   margin-left: 15%;
+   position: absolute;
+}
+.right{
+    float: right;
+    clear: both;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.leftt{
+position: static;
+}
+.send{
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 1190px;
+    margin: auto;
+    
+    
+}
+
+#messageinput {
+    font-size: 15px;
+    width: 68vw;  
+     position: relative;
+    /* left: 147px; */
+    bottom: 4px;
+    border: 2px solid black;
+    border-radius:5px ;
+    height: 25px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    top: 35px;
+}
+.btn{
+    border: 2px solid black;
+    border-radius:5px ;
+    height: 28px;
+    width: 60px;
+    background-color: black;
+    color: rgb(255, 254, 254);
+    border: 2px solid white;
+    position: relative;
+    top: 33px;
+}
+
+
+
+
+/*  for extra amall phone */
+@media only screen and (max-width: 600px) {
+    body{
+   
+        background-size: 106vw 100vw;
+   
+    background-position-y: 12vh;
+  
+        background-position-x: 0vh;
+       
+        
+    }
+    
+    .logo{
+        height: 7vh;
+        width: 7vh;
+        display: inline;
+        margin-left: 1vh;
+        margin-right: 0px;
+        margin-bottom: 15px;
+        margin-top: 13px;
+    }
+    h1{
+        display: inline;
+        position: absolute;
+        top: 26px;
+        left: 11vh;
+    }
+    /* .container{
+        width:43vh ;
+        border: 2px solid rgb(255, 253, 253);
+        border-radius: 12px;
+        margin: auto;
+        height: 61vh;
+        overflow-y: scroll;
+        padding: 2vh;
+        margin-bottom: 2vh;
+         background-color: rgb(0, 0, 0, .45);
+        
+      
+     
+    } */
+    /* .btn{
+        border: 2px solid black;
+        border-radius:5px ;
+        height: 28px;
+        width: 60px;
+        background-color: black;
+        color: rgb(255, 254, 254);
+        border: 2px solid white;
+    } */
+    /* #messageinput {
+        font-size: 15px;
+    width: 35vh;
+    border: 1vh solid black;
+    border-radius: 1vh;
+    height: 4.5vh;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    } */
+}
+
+
+
+/* rotate */
+
+@media only screen and (max-height: 400px){
+  
+    #messageinput {
+        font-size: 3vh;
+    width: 100vh;
+    border: 1vh solid black;
+    border-radius: 1vh;
+    height: 4.5vh;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    }
+
+    .container{
+        width:132vh ;
+        border: 2px solid rgb(255, 253, 253);
+        border-radius: 12px;
+        margin: auto;
+        height: 55vh;
+        overflow-y: scroll;
+        padding: 2vh;
+        margin-bottom: 2vh;
+         background-color: rgb(0, 0, 0, .45);
+        
+      
+     
+    }
+   }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <script src="https://kit.fontawesome.com/1cf00b6a09.js" crossorigin="anonymous"></script>
+  <title>1981 chat application</title>
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+  <nav><img class="logo" src="static/icon.png" alt="icon">
+    <h1>H-Chat Application</h1>
+  </nav>
+  <div class="container"></div>
+ <div id="typing"></div>
+  <div class="send">
+    <form id="send-form" action="#" >
+      <input id="messageinput" type="text" name="messageinput" >
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="static/js/client.js"></script>
+</body>
+</html>
+
+<!-- oninput="typing()" -->
