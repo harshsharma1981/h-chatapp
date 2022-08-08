@@ -35,14 +35,19 @@ io.on("connection", (socket) => {
     socket.broadcast.emit("left", users[socket.id]);
     delete users[socket.id];
   });
-    socket.on("send-typing", (typingg, scroll) => {
-      socket.broadcast.emit("type-receive", {
-       typingg,
-          Name: users[socket.id],
-        }
-     );
+  //   socket.on("send-typing", (, scroll) => {
+  //     socket.broadcast.emit("type-receive", {
+  //      typingg,
+  //         Name: users[socket.id],
+  //       }
+  //    );
     
-   });
+  //  });
+   socket.on("send-typing", (n2) => {
+    console.log("typing", n2);
+    users[socket.id] = n2;
+    socket.broadcast.emit("type-receive",n2);
+  });
  
  
  
