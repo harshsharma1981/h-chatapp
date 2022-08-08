@@ -91,7 +91,7 @@ socket.on('receive', data =>{
              typii.innerHTML = "";
         typii.style.display = 'none'
        
-       }, 1500);
+       }, 7000);
          setTimeout(function(){
         typii.innerHTML = "";
        }, 100);
