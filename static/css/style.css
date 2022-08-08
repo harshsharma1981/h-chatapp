@@ -65,7 +65,7 @@ body{
    color: rgb(230, 226, 226);
     padding-bottom: 25px;
     overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: hidden;
   scroll-behavior: initial;
     clear: both;
    margin-left: 15%;
