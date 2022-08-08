@@ -86,10 +86,15 @@ socket.on('receive', data =>{
     scrollToBottom(typii);
 
     if (typii.style.display = 'block') {
+       
         setTimeout(function(){
+             typii.innerHTML = "";
         typii.style.display = 'none'
-        typii.innerHTML = "";
+       
        }, 1500);
+         setTimeout(function(){
+        typii.innerHTML = "";
+       }, 100);
  }
 
     typ.append(`${inp.typingg}`)
