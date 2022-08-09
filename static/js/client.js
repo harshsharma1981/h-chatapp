@@ -81,7 +81,7 @@ socket.on("type-receive", (n2) => {
   if ((typ.style.display = "block")) {
     setTimeout(function () {
       typ.style.display = "none";
-    }, 10000);
+    }, 2000);
   }
   const scrollToBottom = (node) => {
     node.scrollTop = node.scrollHeight;
