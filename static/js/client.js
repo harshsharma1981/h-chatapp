@@ -38,17 +38,17 @@ form.addEventListener("submit", (e) => {
   messageinput.value = "";
 });
 //take name of the user
-const Name = prompt("Write Your Name In Under 7 Words");
+const Name = prompt("Write Your Nickname Here");
 const n2 = Name.toLowerCase();
 if (Name.length <= 3) {
-  alert("Not Accepted Pls Write Your Correct Name");
+  alert("Not Accepted Nickname Should be greater than 3 words");
   history.back();
 }
-if (Name.length >= 8) {
-  alert("Not Accepted Pls Write Your Name Under 7 Words");
+if (Name.length >= 12) {
+  alert("Not Accepted Pls Write Your Nickname Here");
   history.back();
 }
-var maxLength = 7;
+var maxLength = 12;
 var userData = -1;
 
 while (userData == -1 || (userData != null && userData.length > maxLength)) {
